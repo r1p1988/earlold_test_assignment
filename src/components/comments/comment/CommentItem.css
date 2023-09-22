@@ -1,0 +1,45 @@
+.card {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: space-around;
+  border: none;
+  margin: 10px;
+  position: relative;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: #fff;
+  background-clip: border-box;
+  border-radius: 0.25rem;
+}
+
+.card-color {
+  width: 50px;
+  height: 50px;
+}
+
+.card-body {
+  flex: 1 1 auto;
+  padding: 0 0 0 10px;
+}
+
+pre {
+  display: block;
+  font-size: 87.5%;
+  color: #212529;
+
+  margin-top: 0;
+  margin-bottom: 1rem;
+  overflow: auto;
+}
+
+.card pre {
+  text-align: left;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+  max-width: 400px;
+}
+
+.card-text:last-child {
+  margin-bottom: 0;
+}
